@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
 // importing components folder
-import Form from "./components/Form";
+import Form from "./components/Form.js";
+import TodoList from "./components/TodoList.js"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <h1>Keri Ann's Todo List</h1>
       </header>
       <Form />
+      <TodoList />
     </div>
   );
 }
