@@ -1,6 +1,6 @@
 import React from "react"
 
-const TodoList = () => {
+const TodoList = ({ setTodos }) => {
     return (
         <div className="todo-container" >
             <ul className="todo-list" ></ul>
